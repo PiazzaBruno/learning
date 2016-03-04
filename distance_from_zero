@@ -1,0 +1,7 @@
+def distance_from_zero(num):
+  if type(num) == int:
+    return abs(num)
+  elif type(num) == float:
+    return abs(num)
+  else:
+    return "Nao"
